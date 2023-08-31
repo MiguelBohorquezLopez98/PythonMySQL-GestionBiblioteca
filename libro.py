@@ -58,6 +58,7 @@ def modificar(id, campo, nuevo_valor):
         return 'Se actualizo correctamente'
     except mysql.Error as err:
         print('Ha ocurrido un error', err) 
+
     
 def eliminar(id):
     try:
